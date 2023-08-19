@@ -5,35 +5,17 @@ using UnityEngine;
 public class ScoreSave : MonoBehaviour
 {
     int _myScore = 0;
-    int _1stScore = 0;
-    int _2ndScore = 0;
-    int _3rdScore = 0;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    int _bestScore = 0;
 
     public void Save() 
     {
-        if(_1stScore < _myScore)
+        _myScore = GameManager._instance.Score;
+
+        if (_bestScore < _myScore)
         {
-            _1stScore = _myScore;
+            _bestScore = _myScore;
         }
-        else if (_2ndScore < _myScore)
-        {
-            _2ndScore = _myScore;
-        }
-        else if (_3rdScore < _myScore) 
-        {
-            _3rdScore = _myScore;
-        }
+
+        PlayerPrefs.SetInt("1stScore", _bestScore);
     }
 }

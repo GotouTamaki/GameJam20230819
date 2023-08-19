@@ -5,7 +5,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] float _timer = 60;
 
     public static GameManager _instance;
-    float _score = 0;
+    int _score = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         set { _timer = value; }
     }
 
-    public float Score
+    public int Score
     {
         get { return _score; }
         set { _score = value; }
