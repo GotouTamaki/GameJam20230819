@@ -4,16 +4,16 @@ using UnityEngine.UI;
 public class ScoreTextManager : MonoBehaviour
 {
     [SerializeField] int _myScore = 0;
-    [SerializeField] int _highScore = 0;
+    [SerializeField] int _bestScore = 0;
     Text _myScoreText;
-    Text _highScoreText;
+    Text _bestScoreText;
     void Start()
     {
-        _myScore = PlayerPrefs.GetInt(tag, _myScore);
-        _highScore = PlayerPrefs.GetInt(tag + 1, _highScore);
+        _myScore = PlayerPrefs.GetInt("MyScore", _myScore);
+        _bestScore = PlayerPrefs.GetInt("BestScore" + 1, _myScore);
         _myScoreText = GetComponent<Text>();
-        _highScoreText = GetComponent<Text>();
+        _bestScoreText = GetComponent<Text>();
         _myScoreText.text = $"MyScore\n{_myScore.ToString()}";
-        _highScoreText.text = $"HighScore\n{_highScore.ToString()}";
+        _bestScoreText.text = $"BesthScore\n{_bestScore.ToString()}";
     }
 }

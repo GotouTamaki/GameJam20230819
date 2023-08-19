@@ -598,7 +598,7 @@ GameObject:
   - component: {fileID: 707151597}
   - component: {fileID: 707151599}
   m_Layer: 5
-  m_Name: HighScore
+  m_Name: BestScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,7 +657,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'HighScore
+  m_Text: 'BestScore
 
     000'
 --- !u!222 &707151598
@@ -681,7 +681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _myScore: 0
-  _highScore: 0
+  _bestScore: 0
 --- !u!1 &731725384
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,4 +854,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _myScore: 1000
-  _highScore: 1000
+  _bestScore: 0
