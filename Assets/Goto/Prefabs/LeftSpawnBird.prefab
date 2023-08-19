@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4782605418206674946}
   - component: {fileID: 135395083}
   m_Layer: 0
-  m_Name: Bird
+  m_Name: LeftSpawnBird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

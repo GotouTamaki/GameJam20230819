@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BirdGeneratorManager : MonoBehaviour
 {
-    [SerializeField] GameObject _fallObjects = null;
+    [SerializeField] GameObject _bird = null;
     [SerializeField] float _interval = 1.0f;
     [SerializeField] float _spawnPosiRange = 10f;
     [SerializeField] float _spawnNegaRange = -10f;
@@ -28,7 +28,7 @@ public class BirdGeneratorManager : MonoBehaviour
         if (_timer > _interval)
         {
             _spawnPosi = new Vector3(this.transform.position.x, Random.Range(_spawnNegaRange, _spawnPosiRange), 0);
-            Instantiate(_fallObjects, _spawnPosi, Quaternion.identity);
+            Instantiate(_bird, _spawnPosi, Quaternion.identity);
             _timer = 0;
             _interval = Random.Range(_intervalMinRange, _intervalMaxRange);
         }
