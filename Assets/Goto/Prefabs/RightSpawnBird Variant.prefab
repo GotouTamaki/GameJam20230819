@@ -11,10 +11,14 @@ PrefabInstance:
       propertyPath: _moveSpeed
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 135395083, guid: 018d76e2661735b4f9e91e2cc19ead4c, type: 3}
+      propertyPath: _telepotePosition
+      value: -6
+      objectReference: {fileID: 0}
     - target: {fileID: 4782605418206674953, guid: 018d76e2661735b4f9e91e2cc19ead4c,
         type: 3}
       propertyPath: m_Name
-      value: RightSpawnBird
+      value: RightSpawnBird Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4782605418206674957, guid: 018d76e2661735b4f9e91e2cc19ead4c,
         type: 3}
