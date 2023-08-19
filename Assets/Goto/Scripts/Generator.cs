@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Generator : MonoBehaviour
 {
-    [SerializeField] List<GameObject> _fallObjects = new List<GameObject>();
+    [SerializeField] GameObject _fallObjects = null;
     [SerializeField] float _interval = 1.0f;
     [SerializeField] float _spawnPosiRange = 10f;
     [SerializeField] float _spawnNegaRange = -10f;
-    [SerializeField] float _intervalPosiRange = 10f;
-    [SerializeField] float _intervalNegaRange = 1f;
+    [SerializeField] float _intervalMaxRange = 10f;
+    [SerializeField] float _intervalMinRange = 1f;
 
     Vector3 _spawnPosi = Vector3.zero;
     float _timer = 0;
@@ -17,7 +17,7 @@ public class Generator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _timer = _interval;
+        _timer = 0;
     }
 
     // Update is called once per frame
@@ -28,9 +28,9 @@ public class Generator : MonoBehaviour
         if (_timer > _interval)
         {
             _spawnPosi = new Vector3(Random.Range(_spawnNegaRange, _spawnPosiRange), this.transform.position.y, 0);
-            Instantiate(_fallObjects[Random.Range(0, _fallObjects.Count)], _spawnPosi, Quaternion.identity);
+            Instantiate(_fallObjects, _spawnPosi, Quaternion.identity);
             _timer = 0;
-            _interval = Random.Range(_intervalNegaRange, _intervalPosiRange);
+            _interval = Random.Range(_intervalMinRange, _intervalMaxRange);
         }        
     }
 }
