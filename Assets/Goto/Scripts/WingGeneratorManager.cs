@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Generator : MonoBehaviour
+public class WingGeneratorManager : MonoBehaviour
 {
     [SerializeField] GameObject _fallObjects = null;
     [SerializeField] float _interval = 1.0f;
