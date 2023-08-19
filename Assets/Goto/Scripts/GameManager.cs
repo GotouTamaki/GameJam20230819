@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] float _timer = 60;
 
-    GameManager _instance;
+    public static GameManager _instance;
     float _score = 0;
 
     // Start is called before the first frame update
