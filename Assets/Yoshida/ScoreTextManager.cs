@@ -10,7 +10,7 @@ public class ScoreTextManager : MonoBehaviour
     void Start()
     {
         _myScore = PlayerPrefs.GetInt("MyScore", _myScore);
-        _bestScore = PlayerPrefs.GetInt("BestScore" + 1, _myScore);
+        _bestScore = PlayerPrefs.GetInt("BestScore", _myScore);
         _myScoreText = GetComponent<Text>();
         _bestScoreText = GetComponent<Text>();
         _myScoreText.text = $"MyScore\n{_myScore.ToString()}";
