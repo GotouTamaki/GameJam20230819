@@ -16,6 +16,7 @@ public class ScoreSave : MonoBehaviour
             _bestScore = _myScore;
         }
 
-        PlayerPrefs.SetInt("1stScore", _bestScore);
+        PlayerPrefs.SetInt("MyScore", _myScore);
+        PlayerPrefs.SetInt("BestScore", _bestScore);    
     }
 }
