@@ -680,6 +680,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _myScore: 0
   _bestScore: 0
+  _myScoreText: {fileID: 0}
+  _bestScoreText: {fileID: 0}
 --- !u!1 &731725384
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,3 +981,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _myScore: 1000
   _bestScore: 0
+  _myScoreText: {fileID: 1841537076}
+  _bestScoreText: {fileID: 707151597}
