@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618fca8a13047db4eade6480884f2cb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bird: {fileID: 0}
-  _interval: 5
+  _bird: {fileID: 7926164817214978369, guid: b6a19c56e191c3f488b2c1ad93b9b27b, type: 3}
+  _interval: 10
   _spawnPosiRange: 5
-  _spawnNegaRange: -1.5
+  _spawnNegaRange: -0.6
   _intervalMaxRange: 10
   _intervalMinRange: 5

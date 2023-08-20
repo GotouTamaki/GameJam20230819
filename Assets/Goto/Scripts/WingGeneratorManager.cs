@@ -23,14 +23,17 @@ public class WingGeneratorManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _timer += Time.deltaTime;
+        _timer += Time.deltaTime;        
+    }
 
+    private void FixedUpdate()
+    {
         if (_timer > _interval)
         {
             _spawnPosi = new Vector3(Random.Range(_spawnNegaRange, _spawnPosiRange), this.transform.position.y, 0);
             Instantiate(_fallObjects, _spawnPosi, Quaternion.identity);
             _timer = 0;
             _interval = Random.Range(_intervalMinRange, _intervalMaxRange);
-        }        
+        }
     }
 }

@@ -356,22 +356,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1525425671443662463, guid: c48f0522546e0f44b871e851f653cf30,
-        type: 3}
-      propertyPath: _bird
-      value: 
-      objectReference: {fileID: 7926164817214978369, guid: b6a19c56e191c3f488b2c1ad93b9b27b,
-        type: 3}
-    - target: {fileID: 1525425671443662463, guid: c48f0522546e0f44b871e851f653cf30,
-        type: 3}
-      propertyPath: _interval
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1525425671443662463, guid: c48f0522546e0f44b871e851f653cf30,
-        type: 3}
-      propertyPath: _spawnNegaRange
-      value: -3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48f0522546e0f44b871e851f653cf30, type: 3}
 --- !u!4 &1194715772 stripped
@@ -760,10 +744,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4287011871335105519, guid: d45b08f3874f62a4eabcbb8285d551e1,
         type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287011871335105519, guid: d45b08f3874f62a4eabcbb8285d551e1,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287011871335105519, guid: d45b08f3874f62a4eabcbb8285d551e1,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287011871335105519, guid: d45b08f3874f62a4eabcbb8285d551e1,
+        type: 3}
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: 84061db10801acb49a61ffb9f23a6bae,
         type: 3}
+    - target: {fileID: 4287011871735231820, guid: d45b08f3874f62a4eabcbb8285d551e1,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287011871735231820, guid: d45b08f3874f62a4eabcbb8285d551e1,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287011871735231820, guid: d45b08f3874f62a4eabcbb8285d551e1,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4287011871735231820, guid: d45b08f3874f62a4eabcbb8285d551e1,
         type: 3}
       propertyPath: m_FontData.m_Font
@@ -1090,11 +1104,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4782605418206674953, guid: 018d76e2661735b4f9e91e2cc19ead4c,
         type: 3}
-    - target: {fileID: 1525425671443662463, guid: c48f0522546e0f44b871e851f653cf30,
-        type: 3}
-      propertyPath: _spawnNegaRange
-      value: -3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c48f0522546e0f44b871e851f653cf30, type: 3}
 --- !u!1001 &1956962769795787990
@@ -1122,7 +1131,7 @@ PrefabInstance:
     - target: {fileID: 6549186405486560600, guid: 01d17a63ac7ceb34383fb6c3535a9683,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 6549186405486560600, guid: 01d17a63ac7ceb34383fb6c3535a9683,
         type: 3}
@@ -1242,6 +1251,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3824329496118394811, guid: c3825ad2a8cc29046aff4a838ad90c1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Kago
+      objectReference: {fileID: 0}
     - target: {fileID: 5310774796050131597, guid: c3825ad2a8cc29046aff4a838ad90c1d,
         type: 3}
       propertyPath: m_Name
@@ -1260,7 +1274,7 @@ PrefabInstance:
     - target: {fileID: 5310774796050131634, guid: c3825ad2a8cc29046aff4a838ad90c1d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5310774796050131634, guid: c3825ad2a8cc29046aff4a838ad90c1d,
         type: 3}

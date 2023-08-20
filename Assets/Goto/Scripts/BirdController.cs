@@ -19,6 +19,11 @@ public class BirdController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         _rb.AddForce(_moveSpeed, 0, 0, ForceMode.Force);
     }
 
