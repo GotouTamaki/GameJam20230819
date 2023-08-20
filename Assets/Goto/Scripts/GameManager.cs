@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
             GameObject.Destroy(this);
         }
 
+        _score = 0;
         _BGMAudio = GetComponent<AudioSource>();
         _BGMFastAudio = GetComponent<AudioSource>();
     }
