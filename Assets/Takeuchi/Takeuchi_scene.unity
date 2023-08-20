@@ -611,6 +611,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cylinder
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8980484284631973908, guid: cdd6fffcf8266994b8de9fbcfd632752, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cdd6fffcf8266994b8de9fbcfd632752, type: 3}
