@@ -1477,9 +1477,19 @@ PrefabInstance:
       objectReference: {fileID: 1068313887}
     - target: {fileID: 7044589576785401664, guid: 3e5d304906148f742890b144cf91a463,
         type: 3}
+      propertyPath: _timer
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7044589576785401664, guid: 3e5d304906148f742890b144cf91a463,
+        type: 3}
       propertyPath: _fastBGM
       value: 
       objectReference: {fileID: 1727701659}
+    - target: {fileID: 7044589576785401664, guid: 3e5d304906148f742890b144cf91a463,
+        type: 3}
+      propertyPath: _startGame
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7044589576785401665, guid: 3e5d304906148f742890b144cf91a463,
         type: 3}
       propertyPath: m_RootOrder
@@ -1603,6 +1613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507434507022235537, guid: 72b1288d590534b4c872cda9f0a26707,
+        type: 3}
+      propertyPath: BypassListenerEffects
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7507434507022235542, guid: 72b1288d590534b4c872cda9f0a26707,
         type: 3}

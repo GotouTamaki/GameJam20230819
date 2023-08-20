@@ -5,11 +5,16 @@ using UnityEngine;
 public class ScoreSave : MonoBehaviour
 {
     int _myScore = 0;
-    int _bestScore = 0;
+    static int _bestScore = 0;
 
     public void Save() 
     {
         _myScore = GameManager._instance.Score;
+
+        if (_bestScore < 0)
+        {
+            _bestScore = 0;
+        }
 
         if (_bestScore < _myScore)
         {

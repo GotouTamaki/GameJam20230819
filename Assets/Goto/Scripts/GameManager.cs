@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     /// <summary>スコア用変数</summary>
     int _score = 0;
     /// <summary>ゲームスタートの判定</summary>
-    public bool _startGame = false;
+    bool _startGame = false;
     AudioSource _BGMAudio;
     AudioSource _BGMFastAudio;
 
