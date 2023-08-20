@@ -9,11 +9,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 135395083, guid: 018d76e2661735b4f9e91e2cc19ead4c, type: 3}
       propertyPath: _moveSpeed
-      value: -10
+      value: -2000
       objectReference: {fileID: 0}
     - target: {fileID: 135395083, guid: 018d76e2661735b4f9e91e2cc19ead4c, type: 3}
       propertyPath: _telepotePosition
       value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782605418206674946, guid: 018d76e2661735b4f9e91e2cc19ead4c,
+        type: 3}
+      propertyPath: m_Mass
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 4782605418206674953, guid: 018d76e2661735b4f9e91e2cc19ead4c,
         type: 3}
