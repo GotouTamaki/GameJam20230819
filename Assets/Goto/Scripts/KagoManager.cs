@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KazoManager : MonoBehaviour
+public class KagoManager : MonoBehaviour
 {
     [SerializeField] float _telepotePosition = 0.0f;
 

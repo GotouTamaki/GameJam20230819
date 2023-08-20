@@ -48,5 +48,5 @@ MonoBehaviour:
   _interval: 10
   _spawnPosiRange: 5
   _spawnNegaRange: -0.6
-  _intervalMaxRange: 10
-  _intervalMinRange: 5
+  _intervalMaxRange: 15
+  _intervalMinRange: 10
