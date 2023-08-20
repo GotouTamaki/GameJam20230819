@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 323767400705895977}
   - component: {fileID: 323767400705895978}
   - component: {fileID: -2534756186078578918}
+  - component: {fileID: -1243932363992440257}
   m_Layer: 0
   m_Name: RainbowWing
   m_TagString: Wing
@@ -64,6 +65,19 @@ CapsuleCollider:
   m_Height: 0.54832214
   m_Direction: 0
   m_Center: {x: 0.009234697, y: -0.0056535006, z: -0.005843818}
+--- !u!114 &-1243932363992440257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323767400705895979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319e95dff7bdca145b008a39bf9da2d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _score: 3
 --- !u!1001 &323767400032877416
 PrefabInstance:
   m_ObjectHideFlags: 0
