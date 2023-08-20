@@ -480,7 +480,12 @@ PrefabInstance:
     - target: {fileID: 2085997066195414697, guid: f41c3ecdbd09e094781058b19622be81,
         type: 3}
       propertyPath: m_Name
-      value: Sphere
+      value: Utiwa
+      objectReference: {fileID: 0}
+    - target: {fileID: 2085997066195414699, guid: f41c3ecdbd09e094781058b19622be81,
+        type: 3}
+      propertyPath: m_Radius
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 2085997066195414700, guid: f41c3ecdbd09e094781058b19622be81,
         type: 3}

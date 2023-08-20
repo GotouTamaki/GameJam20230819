@@ -5,24 +5,21 @@ using UnityEngine;
 public class player_Uchiwa : MonoBehaviour
 {
     List<Rigidbody> rigidbodies = new List<Rigidbody>();
-
-
+    [SerializeField] float _power = 0;
 
     // Update is called once per frame
     void Update()
     {
+        // 左クリックでうちわを仰ぐ
         if (Input.GetMouseButtonDown(0))
         {
             foreach (var rigidbody in rigidbodies)
             {
-                rigidbody.AddForce(0, 100, 0);
+                rigidbody.AddForce(0, _power, 0, ForceMode.Impulse);
             }
         }
-        
-            
-            
-        
 
+        
         // Camera.main でメインカメラ（MainCamera タグの付いた Camera）を取得する
         // Camera.ScreenToWorldPoint 関数で、スクリーン座標をワールド座標に変換する
         Vector3 mousePosition = Input.mousePosition;
