@@ -727,7 +727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 200
-  _telepotePosition: -6
+  _teleportPosition: -9
 --- !u!1 &7514818440267586151
 GameObject:
   m_ObjectHideFlags: 0

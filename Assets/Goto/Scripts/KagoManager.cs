@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KagoManager : MonoBehaviour
 {
-    [SerializeField] float _telepotePosition = 0.0f;
+    [SerializeField] float _teleportPosition = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class KagoManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Wing")
         {
-            other.transform.position = new Vector3(0, _telepotePosition, 0);
+            other.transform.position = new Vector3(0, _teleportPosition, 0);
         }
     }
 }

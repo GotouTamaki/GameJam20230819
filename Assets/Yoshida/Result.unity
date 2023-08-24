@@ -596,7 +596,6 @@ GameObject:
   - component: {fileID: 707151596}
   - component: {fileID: 707151598}
   - component: {fileID: 707151597}
-  - component: {fileID: 707151599}
   m_Layer: 5
   m_Name: BestScore
   m_TagString: Untagged
@@ -666,22 +665,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707151595}
   m_CullTransparentMesh: 1
---- !u!114 &707151599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707151595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f79f4b1fe41476d4e99ca6b5458d79bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _myScore: 0
-  _bestScore: 0
-  _myScoreText: {fileID: 0}
-  _bestScoreText: {fileID: 0}
 --- !u!1 &731725384
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,8 +12,8 @@ public class ScoreTextManager : MonoBehaviour
     {
         _myScore = PlayerPrefs.GetInt("MyScore");
         _bestScore = PlayerPrefs.GetInt("BestScore");
-        _myScoreText = GetComponent<Text>();
-        _bestScoreText = GetComponent<Text>();
+        //_myScoreText = GetComponent<Text>();
+        //_bestScoreText = GetComponent<Text>();
         _myScoreText.text = _myScore.ToString();
         _bestScoreText.text = _bestScore.ToString();
     }

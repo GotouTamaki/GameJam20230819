@@ -6,7 +6,7 @@ using UnityEngine;
 public class BirdController : MonoBehaviour
 {
     [SerializeField] float _moveSpeed = 1.0f;
-    [SerializeField] float _telepotePosition = 0.0f;
+    [SerializeField] float _teleportPosition = 0.0f;
 
     Rigidbody _rb;
 
@@ -31,7 +31,7 @@ public class BirdController : MonoBehaviour
     {
         if (other.gameObject.tag == "Wing")
         {
-            other.transform.position = new Vector3(0, _telepotePosition, 0);
+            other.transform.position = new Vector3(0, _teleportPosition, 0);
         }
     }
 }

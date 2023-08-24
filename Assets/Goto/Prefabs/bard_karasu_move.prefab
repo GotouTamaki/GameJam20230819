@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: -200
-  _telepotePosition: -6
+  _teleportPosition: -9
 --- !u!82 &1180188257948932452
 AudioSource:
   m_ObjectHideFlags: 0
