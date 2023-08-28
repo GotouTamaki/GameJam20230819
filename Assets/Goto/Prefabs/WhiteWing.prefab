@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 200798010906530637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.8331125, y: -0.41195637, z: 0.2880331}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -62,10 +62,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.092623994
-  m_Height: 0.54832214
+  m_Radius: 0.0926
+  m_Height: 0.5483
   m_Direction: 0
-  m_Center: {x: 0.009234697, y: -0.0056535006, z: -0.005843818}
+  m_Center: {x: 0, y: -0.1, z: 0}
 --- !u!114 &8543234093379468981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -94,7 +94,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
