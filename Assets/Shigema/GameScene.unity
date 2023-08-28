@@ -1364,8 +1364,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2, y: 0.3, z: 1}
-  m_Center: {x: 0, y: 0.6, z: 0}
+  m_Size: {x: 1.5012423, y: 0.43740404, z: 1}
+  m_Center: {x: -0.036732256, y: 0.55184525, z: 0}
 --- !u!114 &1474570615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1378,20 +1378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51afa7db698a8f944a8d81fd7f187107, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPosition: 0
---- !u!65 &1474570616
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474570611}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.43, y: 0.57, z: 0.89}
-  m_Center: {x: 0, y: 0.27, z: 0}
+  _telepotePosition: -9
 --- !u!1001 &1510842265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1996,6 +1983,7 @@ MonoBehaviour:
   _timer: 60
   _BGM: {fileID: 1153972301}
   _fastBGM: {fileID: 248686552}
+  _startGame: 0
 --- !u!4 &1926950654
 Transform:
   m_ObjectHideFlags: 0
