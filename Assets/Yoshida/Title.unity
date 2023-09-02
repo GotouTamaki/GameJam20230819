@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 60549055}
   - component: {fileID: 60549056}
   m_Layer: 5
-  m_Name: Start
+  m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -580,7 +580,7 @@ PrefabInstance:
     - target: {fileID: 7977059792640082952, guid: b68845aa4629ec94a86548a3dd13a66d,
         type: 3}
       propertyPath: m_Color.a
-      value: 0.5019608
+      value: 0.88235295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b68845aa4629ec94a86548a3dd13a66d, type: 3}
@@ -907,7 +907,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1121,7 +1121,7 @@ GameObject:
   - component: {fileID: 577099878}
   - component: {fileID: 577099881}
   m_Layer: 5
-  m_Name: Back
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1433,7 +1433,7 @@ GameObject:
   - component: {fileID: 852867757}
   - component: {fileID: 852867758}
   m_Layer: 5
-  m_Name: Credit
+  m_Name: CreditButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
