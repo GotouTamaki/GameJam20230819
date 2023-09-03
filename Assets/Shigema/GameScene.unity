@@ -591,17 +591,17 @@ PrefabInstance:
     - target: {fileID: 7507434507022235536, guid: 72b1288d590534b4c872cda9f0a26707,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1084.5017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7507434507022235536, guid: 72b1288d590534b4c872cda9f0a26707,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 777.94617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7507434507022235536, guid: 72b1288d590534b4c872cda9f0a26707,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 112.35217
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7507434507022235536, guid: 72b1288d590534b4c872cda9f0a26707,
         type: 3}
@@ -642,6 +642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Loop
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7507434507022235537, guid: 72b1288d590534b4c872cda9f0a26707,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7507434507022235542, guid: 72b1288d590534b4c872cda9f0a26707,
         type: 3}
@@ -721,6 +726,11 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4802751943637723880, guid: a78d638dca6b0704ca74e9725e5432f9,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4802751943637723881, guid: a78d638dca6b0704ca74e9725e5432f9,
         type: 3}
       propertyPath: m_RootOrder
@@ -729,17 +739,17 @@ PrefabInstance:
     - target: {fileID: 4802751943637723881, guid: a78d638dca6b0704ca74e9725e5432f9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1084.5017
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4802751943637723881, guid: a78d638dca6b0704ca74e9725e5432f9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 777.94617
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4802751943637723881, guid: a78d638dca6b0704ca74e9725e5432f9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 112.35217
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4802751943637723881, guid: a78d638dca6b0704ca74e9725e5432f9,
         type: 3}
@@ -914,7 +924,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 45ada2ad1baf11a498e0f858f1dbd8ce, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.8
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
